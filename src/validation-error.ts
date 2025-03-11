@@ -15,3 +15,4 @@ export class ValidationError<TData = any> extends Error {
 
 export const isValidationError = (error: any): error is ValidationError =>
    error instanceof ValidationError
+
